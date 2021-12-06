@@ -10,14 +10,8 @@ import {
 export const typeDefs = `
 
 directive @hasScope(scopes: [String]) on OBJECT | FIELD_DEFINITION
-directive @hasRole(roles: [Role]) on OBJECT | FIELD_DEFINITION
+directive @hasRole(roles: [String]) on OBJECT | FIELD_DEFINITION
 directive @isAuthenticated on OBJECT | FIELD_DEFINITION
-
-enum Role {
-    reader
-    user
-    admin
-}
 
 type User {
     id: ID!
