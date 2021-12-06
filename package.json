@@ -1,6 +1,6 @@
 {
   "name": "graphql-auth-directives-no-token",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Add authorization to your GraphQL API using schema directives.",
   "main": "./dist/index.js",
   "scripts": {
@@ -17,10 +17,10 @@
     "url": "git+https://github.com/nomshar/graphql-auth-directives-no-token.git"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.7.2",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
     "@babel/node": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-env": "^7.16.4",
     "apollo-cache-inmemory": "^1.4.2",
     "apollo-client": "^2.6.10",
     "apollo-link-http": "^1.5.17",
